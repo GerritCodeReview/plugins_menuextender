@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "19198330_95b8a4ca",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-04-15T13:32:21Z",
+      "side": 1,
+      "message": "gwtexpui is now built in the gerrit tree.  Can we expose that so we don\u0027t have to use the external library?",
+      "range": {
+        "startLine": 113,
+        "startChar": 0,
+        "endLine": 124,
+        "endChar": 17
+      },
+      "revId": "df96877ddf5afacace7ab38c71aea822f66e0945",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f9158ff4_b4b320ef",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/menuextender/MenuExtenderPlugin.gwt.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-04-15T13:32:21Z",
+      "side": 1,
+      "message": "Unnecessary whitespace?",
+      "range": {
+        "startLine": 18,
+        "startChar": 42,
+        "endLine": 18,
+        "endChar": 65
+      },
+      "revId": "df96877ddf5afacace7ab38c71aea822f66e0945",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "19198330_55f60ca9",
+        "filename": "src/main/resources/Documentation/about.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-04-15T13:32:21Z",
+      "side": 1,
+      "message": "this is mentioned in config.md, does it need to be here too?",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 66
+      },
+      "revId": "df96877ddf5afacace7ab38c71aea822f66e0945",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "19198330_b5b320ef",
+        "filename": "src/main/resources/Documentation/rest-api-config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2014-04-15T13:32:21Z",
+      "side": 1,
+      "message": "[not related to this change] It would be good if we could have some kind of token to use here, so we can avoid these ugly relative links.",
+      "range": {
+        "startLine": 24,
+        "startChar": 41,
+        "endLine": 24,
+        "endChar": 50
+      },
+      "revId": "df96877ddf5afacace7ab38c71aea822f66e0945",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}

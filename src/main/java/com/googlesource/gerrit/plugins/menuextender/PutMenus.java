@@ -63,7 +63,8 @@ public class PutMenus implements RestModifyView<ConfigResource, Input> {
       throws IOException, ConfigInvalidException {
     FileBasedConfig cfg =
         new FileBasedConfig(
-            new File(sitePaths.etc_dir, pluginName + ".config"), FS.DETECTED);
+            sitePaths.etc_dir.resolve(pluginName + ".config").toFile(),
+            FS.DETECTED);
     cfg.load();
     cfg.clear();
     if (input.menus != null) {

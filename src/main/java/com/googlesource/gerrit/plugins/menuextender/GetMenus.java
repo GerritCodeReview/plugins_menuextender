@@ -52,7 +52,7 @@ public class GetMenus implements RestReadView<ConfigResource>, TopMenu {
 
   @Inject
   public GetMenus(@PluginName String pluginName, SitePaths sitePaths) {
-    this.cfgFile = new File(sitePaths.etc_dir, pluginName + ".config");
+    this.cfgFile = sitePaths.etc_dir.resolve(pluginName + ".config").toFile();
   }
 
   @Override

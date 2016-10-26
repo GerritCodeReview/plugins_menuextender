@@ -24,6 +24,7 @@ import com.google.common.base.Strings;
 import com.google.gerrit.common.data.GlobalCapability;
 import com.google.gerrit.extensions.annotations.PluginName;
 import com.google.gerrit.extensions.annotations.RequiresCapability;
+import com.google.gerrit.extensions.client.MenuItem;
 import com.google.gerrit.extensions.restapi.RestModifyView;
 import com.google.gerrit.extensions.webui.TopMenu;
 import com.google.gerrit.server.config.ConfigResource;
@@ -69,7 +70,7 @@ public class PutMenus implements RestModifyView<ConfigResource, Input> {
     cfg.clear();
     if (input.menus != null) {
       for (TopMenu.MenuEntry menuEntry : input.menus) {
-        for (TopMenu.MenuItem menuItem : menuEntry.items) {
+        for (MenuItem menuItem : menuEntry.items) {
           if (menuItem.name == null) {
             continue;
           }

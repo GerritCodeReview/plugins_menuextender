@@ -1,3 +1,5 @@
+include_defs('//bucklets/gerrit_plugin.bucklet')
+
 MODULE = 'com.googlesource.gerrit.plugins.menuextender.MenuExtenderPlugin'
 
 gerrit_plugin(

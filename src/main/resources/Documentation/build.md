@@ -1,21 +1,23 @@
 Build
 =====
 
-This plugin is built with Buck.
+This plugin is built with Bazel.
 Clone or link this plugin to the plugins directory of Gerrit tree
 and issue the command:
 
 ```
-  buck build plugins/menuextender
+  bazel build plugins/menuextender
 ```
 
 The output is created in
 
 ```
-  buck-out/gen/plugins/menuextender/menuextender.jar
+  bazel-genfiles/plugins/menuextender/menuextender.jar
 ```
 
-This project can be imported into the Eclipse IDE:
+This project can be imported into the Eclipse IDE.
+Add the plugin name to the `CUSTOM_PLUGINS` set in
+Gerrit core in `tools/bzl/plugins.bzl`, and execute:
 
 ```
   ./tools/eclipse/project.py

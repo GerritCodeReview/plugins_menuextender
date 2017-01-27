@@ -1,18 +1,24 @@
 Build
 =====
 
-This plugin is built with Buck.
+This plugin is built with Bazel.
 Clone or link this plugin to the plugins directory of Gerrit tree
 and issue the command:
 
 ```
-  buck build plugins/menuextender
+  cd plugins/menuextender
+
+  cp -f external_plugin_deps.bzl ../
+
+  cd ../../
+
+  bazel build plugins/menuextender
 ```
 
 The output is created in
 
 ```
-  buck-out/gen/plugins/menuextender/menuextender.jar
+  bazel-genfiles/plugins/menuextender/menuextender.jar
 ```
 
 This project can be imported into the Eclipse IDE:

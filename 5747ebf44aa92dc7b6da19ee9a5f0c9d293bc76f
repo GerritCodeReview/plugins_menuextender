@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7357a0d4_f8d04c05",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "Jan 27, 2017 11:31:46 PM",
+      "side": 1,
+      "message": "Too long line. Max 72 chars in the commit message.",
+      "revId": "5747ebf44aa92dc7b6da19ee9a5f0c9d293bc76f",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}

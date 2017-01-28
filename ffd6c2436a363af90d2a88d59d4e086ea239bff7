@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a09fdbf5_e06afa90",
+        "filename": "src/main/resources/Documentation/build.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "Jan 27, 2017 11:30:50 PM",
+      "side": 1,
+      "message": "This doesn\u0027t work without extending plugins.bzl. This should be mentioned. See example in https://gerrit-review.googlesource.com/#/c/95454:\n\n  This project can be imported into the Eclipse IDE.\n  Add the plugin name to the `CUSTOM_PLUGINS` set in\n  Gerrit core in `tools/bzl/plugins.bzl`, and execute:",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 3
+      },
+      "revId": "ffd6c2436a363af90d2a88d59d4e086ea239bff7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}

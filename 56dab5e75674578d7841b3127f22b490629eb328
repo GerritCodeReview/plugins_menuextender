@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7ded023e_36cccb37",
+        "filename": "src/main/resources/Documentation/build.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "Jan 29, 2017 10:59:27 AM",
+      "side": 1,
+      "message": "@PLUGIN@",
+      "range": {
+        "startLine": 9,
+        "startChar": 22,
+        "endLine": 9,
+        "endChar": 34
+      },
+      "revId": "56dab5e75674578d7841b3127f22b490629eb328",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d6afa12e_737676fc",
+        "filename": "src/main/resources/Documentation/build.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "Jan 29, 2017 10:59:27 AM",
+      "side": 1,
+      "message": "@PLUGIN@",
+      "range": {
+        "startLine": 15,
+        "startChar": 38,
+        "endLine": 15,
+        "endChar": 50
+      },
+      "revId": "56dab5e75674578d7841b3127f22b490629eb328",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7fe20a57_3bd28d54",
+        "filename": "src/main/resources/Documentation/build.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011323
+      },
+      "writtenOn": "Jan 29, 2017 10:59:27 AM",
+      "side": 1,
+      "message": "@PLUGIN@",
+      "range": {
+        "startLine": 15,
+        "startChar": 25,
+        "endLine": 15,
+        "endChar": 37
+      },
+      "revId": "56dab5e75674578d7841b3127f22b490629eb328",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}

@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "7f07936b_733fd300",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "Jan 29, 2017 11:04:11 AM",
+      "side": 1,
+      "message": "Thanks, done.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 11
+      },
+      "revId": "b7ec576bc941f760431e783d2c77f7fb871b8956",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f811e302_a6a04351",
         "filename": "/COMMIT_MSG",
         "patchSetId": 3
@@ -71,6 +94,29 @@
     },
     {
       "key": {
+        "uuid": "b8be0a92_ec755400",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "Jan 29, 2017 11:04:11 AM",
+      "side": 1,
+      "message": "Thanks, done",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 1
+      },
+      "revId": "b7ec576bc941f760431e783d2c77f7fb871b8956",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "83cefca1_10807fdf",
         "filename": "/COMMIT_MSG",
         "patchSetId": 3
@@ -82,6 +128,23 @@
       "writtenOn": "Jan 29, 2017 10:29:32 AM",
       "side": 1,
       "message": "Or just say that Buck build was replaced with Bazel build.",
+      "revId": "b7ec576bc941f760431e783d2c77f7fb871b8956",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b1b1f021_413219de",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1029953
+      },
+      "writtenOn": "Jan 29, 2017 11:04:11 AM",
+      "side": 1,
+      "message": "Thanks, done.",
       "revId": "b7ec576bc941f760431e783d2c77f7fb871b8956",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false

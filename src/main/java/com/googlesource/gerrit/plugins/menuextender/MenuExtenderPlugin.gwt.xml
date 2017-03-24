@@ -27,6 +27,7 @@
   <!-- resources to the plugin. No theme inherits lines were      -->
   <!-- added in order to make this plugin as simple as possible   -->
   <!-- Specify the app entry point class.                         -->
+  <set-property name="gwt.logging.popupHandler" value="DISABLED" />
   <entry-point class="com.googlesource.gerrit.plugins.menuextender.client.MenuExtenderPlugin"/>
   <stylesheet src="menuextender.css"/>
 </module>

@@ -19,7 +19,6 @@ import com.google.gerrit.common.data.GlobalCapability;
 import com.google.gerrit.extensions.annotations.PluginName;
 import com.google.gerrit.extensions.annotations.RequiresCapability;
 import com.google.gerrit.extensions.client.MenuItem;
-import com.google.gerrit.extensions.restapi.RestReadView;
 import com.google.gerrit.extensions.webui.TopMenu;
 import com.google.gerrit.server.config.ConfigResource;
 import com.google.gerrit.server.config.SitePaths;
@@ -37,7 +36,7 @@ import java.util.Collections;
 import java.util.List;
 
 @RequiresCapability(GlobalCapability.ADMINISTRATE_SERVER)
-public class GetMenus implements RestReadView<ConfigResource>, TopMenu {
+public class GetMenus implements TopMenu {
   public final static String SECTION_MENU_ITEM = "menuItem";
   public final static String KEY_TOP_MENU = "topMenu";
   public final static String KEY_NAME = "name";
@@ -54,11 +53,6 @@ public class GetMenus implements RestReadView<ConfigResource>, TopMenu {
   @Inject
   public GetMenus(@PluginName String pluginName, SitePaths sitePaths) {
     this.cfgFile = sitePaths.etc_dir.resolve(pluginName + ".config").toFile();
-  }
-
-  @Override
-  public List<TopMenu.MenuEntry> apply(ConfigResource rsrc) {
-    return getEntries();
   }
 
   @Override

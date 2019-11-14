@@ -14,10 +14,7 @@
 
 package com.googlesource.gerrit.plugins.menuextender;
 
-import static com.google.gerrit.server.config.ConfigResource.CONFIG_KIND;
-
 import com.google.gerrit.extensions.registration.DynamicSet;
-import com.google.gerrit.extensions.restapi.RestApiModule;
 import com.google.gerrit.extensions.webui.TopMenu;
 import com.google.inject.AbstractModule;
 
@@ -26,13 +23,5 @@ public class Module extends AbstractModule {
   @Override
   protected void configure() {
     DynamicSet.bind(binder(), TopMenu.class).to(GetMenus.class);
-
-    install(new RestApiModule() {
-      @Override
-      protected void configure() {
-        get(CONFIG_KIND, "menus").to(GetMenus.class);
-        put(CONFIG_KIND, "menus").to(PutMenus.class);
-      }
-    });
   }
 }
